@@ -5,29 +5,46 @@ import {
   NavbarLinkWrapper,
   NavbarLink,
   NavbarLogoWrapper,
+  NavbarLogo,
+  MobileIconWrapper,
+  MobileIcon,
+  MobileIconWrapperHidden
 } from "./NavbarElements";
+import { IoReorderTwoOutline } from "react-icons/io5"
+
+import logo from "../../images/logo.png";
 
 const Navbar = () => {
   return (
     <NavbarContainer>
-        <NavbarLogoWrapper>
-          
-        </NavbarLogoWrapper>  
+      <MobileIconWrapperHidden>
+        <MobileIcon>
+          <IoReorderTwoOutline />
+        </MobileIcon>
+      </MobileIconWrapperHidden>
+      <NavbarLogoWrapper>
+        <NavbarLogo src={logo}></NavbarLogo>
+      </NavbarLogoWrapper>
+      <MobileIconWrapper>
+        <MobileIcon>
+          <IoReorderTwoOutline />
+        </MobileIcon>
+      </MobileIconWrapper>
       <NavbarLinkContainer>
         <NavbarLinkWrapper>
-          <NavbarLink>Home</NavbarLink>
+          <NavbarLink to="/">Home</NavbarLink>
         </NavbarLinkWrapper>
         <NavbarLinkWrapper>
-          <NavbarLink>Sessions</NavbarLink>
+          <NavbarLink to="/sessions">Sessions</NavbarLink>
         </NavbarLinkWrapper>
         <NavbarLinkWrapper>
-          <NavbarLink>About</NavbarLink>
+          <NavbarLink to="/about">About</NavbarLink>
         </NavbarLinkWrapper>
         <NavbarLinkWrapper>
-          <NavbarLink>Contact</NavbarLink>
+          <NavbarLink to="/contact">Contact</NavbarLink>
         </NavbarLinkWrapper>
         <NavbarLinkWrapper>
-          <NavbarLink>Portfolio</NavbarLink>
+          <NavbarLink to="/portfolio">Portfolio</NavbarLink>
         </NavbarLinkWrapper>
       </NavbarLinkContainer>
     </NavbarContainer>
