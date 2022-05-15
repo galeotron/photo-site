@@ -25,14 +25,16 @@ export default function Slider() {
   const LeftArrow = {
     position: "absolute",
     top: "325px",
-    left: "300px",
-    fontSize: "60px"
+    left: "0px",
+    fontSize: "60px",
+    color: "white"
   }
   const RightArrow = {
     position: "absolute",
     top: "325px",
-    right: "300px",
-    fontSize: "60px"
+    right: "-15px",
+    fontSize: "60px",
+    color: "white"
   }
 
 
@@ -44,12 +46,12 @@ export default function Slider() {
             key={page}
             src={images[imageIndex]}
             custom={direction}
-            initial={{ opacity: 1, x: 1000 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, position: "absolute" }}
+            animate={{ opacity: 1, x: 0, position: "static" }}
             exit={{ opacity: 0 }}
             transition={{
               x: { type: "spring", stiffness: 300, damping: 300 },
-              opacity: { duration: 1 },
+              opacity: { duration: 0.5 },
             }}
             // drag={"x"}
             // dragConstraints={{ left: 0, right: 0 }}
@@ -57,10 +59,10 @@ export default function Slider() {
           />
         </AnimatePresence>
         <motion.div
-        whileHover={{scale: 1.2,
-        transition: {duration: 0.5}
-        }}
-        whileTap={{scale: 0.9}}
+        // whileHover={{scale: 1.2,
+        // transition: {duration: 0.5}
+        // }}
+        // whileTap={{scale: 0.9}}
         onClick={() => paginate(1)}
         >
           <MdArrowBackIos style={LeftArrow}/>

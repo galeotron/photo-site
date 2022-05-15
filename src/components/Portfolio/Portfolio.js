@@ -5,6 +5,8 @@ import Mountain from "../../images/mountain.jpg";
 
 import Slider from '../Slider';
 
+import {CgArrowLongRight} from "react-icons/cg";
+
 const Portfolio = () => {
   return (
     <PortfolioContainer>
@@ -27,7 +29,9 @@ const Portfolio = () => {
           <ButtonTextWrapper>
             <ButtonText>Let's get started</ButtonText>
           </ButtonTextWrapper>
-          <ButtonArrowWrapper></ButtonArrowWrapper>
+          <ButtonArrowWrapper>
+            <CgArrowLongRight />
+          </ButtonArrowWrapper>
         </ButtonContainer>
       </GalleryContainer>
     </PortfolioContainer>

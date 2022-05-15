@@ -37,6 +37,10 @@ export const BannerTxt = styled.h1`
 export const GalleryContainer = styled.div`
     border: 2px solid blue;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
 `;
 
 export const CarouselContainer = styled.div`
@@ -44,6 +48,8 @@ export const CarouselContainer = styled.div`
     display: flex;
     justify-content: center;
     position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
 `;
 
 export const CarouselImgWrapper = styled.div`
@@ -58,6 +64,13 @@ export const CarouselImg = styled.img`
 `;
 
 export const ButtonContainer = styled.div`
+    border: 2px solid green;
+    /* width: 250px; */
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
 
 `;
 
@@ -66,11 +79,16 @@ export const ButtonTextWrapper = styled.div`
 `;
 
 export const ButtonText = styled.h3`
-
+    font-size: 2em;
+    
 `;
 
 export const ButtonArrowWrapper = styled.div`
-
+    font-size: 3.5em;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 `;
 
 export const CarouselArrowWrapper = styled.div`
