@@ -119,6 +119,13 @@ export const FooterLinkWrapper = styled.div`
 export const FooterLink = styled(Link)`
     width: 100%;
     text-align: center;
+    color: #b7796c;
+    text-decoration: none;
+
+    &:hover {
+        color: black;
+        transition: 0.3s ease-out;
+    }
 `;
 
 export const TextSocialContainer = styled.div`
@@ -154,9 +161,16 @@ export const FooterSocialContainer = styled.div`
     justify-content: center;
 `;
 
-export const FooterSocialWrapper = styled.div`
+export const FooterSocialWrapper = styled.a`
     padding: 8px;
     font-size: 23px;
+    color: #b7796c;
+    cursor: pointer;
+
+    &:hover {
+        color: black;
+        transition: 0.3s ease-out;
+    }
 `;
 
 export const EndContainer = styled.div`

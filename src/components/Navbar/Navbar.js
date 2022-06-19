@@ -14,18 +14,18 @@ import { IoReorderTwoOutline } from "react-icons/io5"
 
 import logo from "../../images/logo.png";
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <NavbarContainer>
-      <MobileIconWrapperHidden>
-        <MobileIcon>
-          <IoReorderTwoOutline />
+      <MobileIconWrapperHidden >
+        <MobileIcon >
+          <IoReorderTwoOutline  />
         </MobileIcon>
       </MobileIconWrapperHidden>
-      <NavbarLogoWrapper>
+      <NavbarLogoWrapper to="/">
         <NavbarLogo src={logo}></NavbarLogo>
       </NavbarLogoWrapper>
-      <MobileIconWrapper>
+      <MobileIconWrapper onClick={toggle}>
         <MobileIcon>
           <IoReorderTwoOutline />
         </MobileIcon>

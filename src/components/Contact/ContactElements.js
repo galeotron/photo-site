@@ -9,6 +9,13 @@ export const ContactContainer = styled.div`
     align-items: center;
     overflow-x: hidden;
     height: calc(100vh - 130px);
+
+    @media screen and (max-width: 600px) {
+
+        height: 100vh
+
+    }
+
 `;
 
 export const ContactLgTxtWrapper = styled.div`
@@ -33,13 +40,37 @@ export const IconSectionContainer = styled.div`
     border: 2px solid red;
     justify-content: space-around;
     width: 1000px;
+
+    @media screen and (max-width: 1000px) {
+
+        width: 100vw;
+
+    }
+
+    @media screen and (max-width: 600px) {
+
+        width: 100vw;
+        flex-direction: column;
+
+    }
+
+
 `;
 
-export const IconContainer = styled.div`
+export const IconContainer = styled.a`
     border: 2px solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-decoration: none;
+    color: #b7796c;
+
+    @media screen and (max-width: 600px) {
+
+        margin-top: 10px;
+
+    }
+
 `;
 
 export const IconWrapper = styled.div`
@@ -54,6 +85,7 @@ export const IconWrapper = styled.div`
     justify-content: center;
     align-items: center;
     font-size: 50px;
+    
 `;
 
 export const IconDescTxtWrapper = styled.div`
@@ -62,6 +94,7 @@ export const IconDescTxtWrapper = styled.div`
 
 export const IconDescTxt = styled.h2`
     text-align: center;
+    
 `;
 
 export const AddressWrapper = styled.div`

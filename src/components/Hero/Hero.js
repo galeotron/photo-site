@@ -31,7 +31,7 @@ import children from "../../images/children.jpg";
 import engagement from "../../images/engagement.jpg";
 import hands from "../../images/hands.jpg";
 
-const Hero = () => {
+const Hero = ({isOpen}) => {
   return (
     <>
       <HeroContainer>

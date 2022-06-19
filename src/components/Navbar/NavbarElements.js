@@ -48,7 +48,7 @@ export const NavbarLinkWrapper = styled.div`
   margin-right: 2em;
 `;
 
-export const NavbarLogoWrapper = styled.div`
+export const NavbarLogoWrapper = styled(Link)`
   /* border: 2px solid orange; */
   width: 500px;
   padding-top: 10px;
@@ -90,6 +90,7 @@ export const NavbarLink = styled(Link)`
   /* border: 2px solid green; */
   cursor: pointer;
   color: #b7796c;
+  text-decoration: none;
 `;
 
 export const MobileIconWrapper = styled.div`
@@ -97,11 +98,13 @@ export const MobileIconWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  cursor: pointer;
 `;
 
 export const MobileIcon = styled.div`
   display: none;
   font-size: 2.2rem;
+  
 
   @media screen and (max-width: 1125px) {
     display: block;
@@ -112,6 +115,7 @@ export const MobileIconWrapperHidden = styled.div`
   /* border: 2px solid yellow; */
 
   display: none;
+  
 
   @media screen and (max-width: 1125px) {
     display: flex;

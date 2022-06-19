@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const PortfolioContainer = styled.div`
     
@@ -56,6 +57,7 @@ export const CarouselImgWrapper = styled.div`
     max-width: 80vw;
     max-height: 80vh;
     display: flex;
+    align-items: center;
 `;
 
 export const CarouselImg = styled.img`
@@ -63,7 +65,7 @@ export const CarouselImg = styled.img`
     height: 100%;
 `;
 
-export const ButtonContainer = styled.div`
+export const ButtonContainer = styled(Link)`
     border: 2px solid green;
     /* width: 250px; */
     display: flex;
@@ -71,6 +73,8 @@ export const ButtonContainer = styled.div`
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 20px;
+    color: #b7796c;
+    text-decoration: none;
 
 `;
 

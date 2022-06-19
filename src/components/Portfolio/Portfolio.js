@@ -25,7 +25,7 @@ const Portfolio = () => {
             <Slider></Slider>
           </CarouselImgWrapper>
         </CarouselContainer>
-        <ButtonContainer>
+        <ButtonContainer to="/contact">
           <ButtonTextWrapper>
             <ButtonText>Let's get started</ButtonText>
           </ButtonTextWrapper>

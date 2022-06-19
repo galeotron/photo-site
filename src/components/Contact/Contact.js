@@ -37,18 +37,18 @@ const Contact = () => {
           <AddressTxt>1234567891</AddressTxt>
         </AddressWrapper>
       </IconContainer>
-      <IconContainer>  
+      <IconContainer href="//www.instagram.com/">  
         <IconWrapper>
           <FaInstagram />
         </IconWrapper>  
-        <IconDescTxtWrapper>
+        <IconDescTxtWrapper >
           <IconDescTxt>Instagram</IconDescTxt>
         </IconDescTxtWrapper>
         <AddressWrapper>
           <AddressTxt>instagram.com/asdf</AddressTxt>
         </AddressWrapper>
       </IconContainer>
-      <IconContainer>  
+      <IconContainer href="//www.facebook.com/">  
         <IconWrapper>
           <FaFacebookF />
         </IconWrapper>  

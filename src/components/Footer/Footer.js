@@ -118,10 +118,10 @@ const Footer = () => {
               <FooterLgText>Let's Connect</FooterLgText>
             </FooterLgTextWrapper>
             <FooterSocialContainer>
-              <FooterSocialWrapper>
+              <FooterSocialWrapper href="https://www.instagram.com/">
                 <FaInstagram />
               </FooterSocialWrapper>
-              <FooterSocialWrapper>
+              <FooterSocialWrapper href="https://www.facebook.com/">
                 <FaFacebookF />
               </FooterSocialWrapper>
             </FooterSocialContainer>
