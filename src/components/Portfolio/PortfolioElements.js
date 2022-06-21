@@ -6,7 +6,7 @@ export const PortfolioContainer = styled.div`
 `;
 
 export const BannerContainer = styled.div`
-    border: 2px solid red;
+    // border: 2px solid red;
     position: relative;
     margin-bottom: 80px;
 `;
@@ -36,7 +36,7 @@ export const BannerTxt = styled.h1`
 `;
 
 export const GalleryContainer = styled.div`
-    border: 2px solid blue;
+    // border: 2px solid blue;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@ export const GalleryContainer = styled.div`
 `;
 
 export const CarouselContainer = styled.div`
-    border: 2px solid orange;
+    // border: 2px solid orange;
     display: flex;
     justify-content: center;
     position: relative;
@@ -66,7 +66,7 @@ export const CarouselImg = styled.img`
 `;
 
 export const ButtonContainer = styled(Link)`
-    border: 2px solid green;
+    // border: 2px solid green;
     /* width: 250px; */
     display: flex;
     align-items: center;
@@ -89,7 +89,7 @@ export const ButtonText = styled.h3`
 
 export const ButtonArrowWrapper = styled.div`
     font-size: 3.5em;
-    border: 2px solid blue;
+    // border: 2px solid blue;
     display: flex;
     align-items: center;
     margin-left: 10px;

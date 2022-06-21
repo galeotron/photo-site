@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.div`
-    border: 2px solid red;
+    // border: 2px solid red;
     padding: 50px;
     background-color: #3D7068;
 
@@ -57,8 +57,8 @@ export const FooterCenterLine = styled.hr`
 `;
 
 export const FooterItemsContainer = styled.div`
-    margin-top: 50px;
-    border: 2px solid red;
+    margin-top: 10px;
+    // border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +69,7 @@ export const FooterItemsContainer = styled.div`
 `;
 
 export const FooterItemsWrapper = styled.div`
-    border: 2px solid blue;
+    // border: 2px solid blue;
 
     width: 33.333%;
     display: flex;
@@ -92,7 +92,7 @@ export const NavSectionContainer = styled.div`
 `;
 
 export const FooterLgTextWrapper = styled.div`
-    border: 2px solid yellow;
+    // border: 2px solid yellow;
     margin-bottom: 25px;
 `;
 
@@ -101,14 +101,14 @@ export const FooterLgText = styled.h1`
 `;
 
 export const FooterLinkContainer = styled.div`
-    border: 2px solid orange;
+    // border: 2px solid orange;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 `;
 
 export const FooterLinkWrapper = styled.div`
-    border: 2px solid red;
+    // border: 2px solid red;
     margin-bottom: 10px;
     width: 50%;
     display: flex;
@@ -129,7 +129,7 @@ export const FooterLink = styled(Link)`
 `;
 
 export const TextSocialContainer = styled.div`
-    border: 2px solid yellow;
+    // border: 2px solid yellow;
 
     @media screen and (max-width: 600px) {
         display: flex;
@@ -141,7 +141,7 @@ export const TextSocialContainer = styled.div`
 
 export const FooterTextWrapper = styled.div`
     width: 100%;
-    border: 2px solid white;
+    // border: 2px solid white;
     margin-bottom: 25px;
 
     @media screen and (max-width: 600px) {
@@ -156,7 +156,7 @@ export const FooterText = styled.h4`
 `;
 
 export const FooterSocialContainer = styled.div`
-    border: 2px solid red;
+    // border: 2px solid red;
     display: flex;
     justify-content: center;
 `;
@@ -174,7 +174,7 @@ export const FooterSocialWrapper = styled.a`
 `;
 
 export const EndContainer = styled.div`
-    margin-top: 80px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     /* border: 2px solid yellow; */

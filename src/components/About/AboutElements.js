@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
-    border: 2px solid blue;
+    // border: 2px solid blue;
     height: 200px;
     display: flex;
     align-items: center;
@@ -10,7 +10,7 @@ export const HeaderContainer = styled.div`
 `;
 
 export const HeaderTextWrapper = styled.div`
-    border: 2px solid red;
+    // border: 2px solid red;
     height: 50%;
     display: flex;
     align-items: center;
@@ -22,12 +22,12 @@ export const HeaderText = styled.h1`
 `;
 
 export const HeroContainer = styled.div`
-    border: 2px solid orange;
+    // border: 2px solid orange;
     height: 420px;
 `;
 
 export const HeroWrapper = styled.div`
-    border: 2px dotted red;
+    // border: 2px dotted red;
     max-height: 100%;
     max-width: 100%;
 `;
@@ -42,7 +42,7 @@ export const HeroImg = styled.img`
 `;
 
 export const TextAreaContainer = styled.div`
-    border: 2px solid blue;
+    // border: 2px solid blue;
     height: 500px;
     display: flex;
     align-items: center;
@@ -52,7 +52,7 @@ export const TextAreaContainer = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-    border: 2px solid red;
+    // border: 2px solid red;
     height: 67%;
     width: 50%;
     display: flex;
@@ -73,7 +73,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const IndivTextWrapper = styled.div`
-    border: 2px solid purple;
+    // border: 2px solid purple;
     // margin-bottom: 20px;
 
     // @media screen and (max-width: 800px) {
@@ -82,11 +82,11 @@ export const IndivTextWrapper = styled.div`
 `;
 
 export const Text = styled.p`
-
+      font-size: 20px;
 `;
 
 export const AbstractPicContainer = styled.div`
-    border: 2px solid green;
+    // border: 2px solid green;
     height: 300px;
 `;
 

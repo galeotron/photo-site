@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-    border: 2px solid blue;
+    // border: 2px solid blue;
     padding: 75px;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@ export const ContactContainer = styled.div`
 `;
 
 export const ContactLgTxtWrapper = styled.div`
-    border: 2px solid blue;
+    // border: 2px solid blue;
     margin-bottom: 35px;
 `;
 
@@ -37,7 +37,7 @@ export const ContactMdTxt = styled.h3`
 
 export const IconSectionContainer = styled.div`
     display: flex;
-    border: 2px solid red;
+    // border: 2px solid red;
     justify-content: space-around;
     width: 1000px;
 
@@ -58,7 +58,7 @@ export const IconSectionContainer = styled.div`
 `;
 
 export const IconContainer = styled.a`
-    border: 2px solid blue;
+    // border: 2px solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;

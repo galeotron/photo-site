@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const HeroContainer = styled.div`
   /* border: 2px solid green; */
@@ -37,7 +38,7 @@ export const WelcomeLgTextWrapper = styled.div`
 `;
 
 export const WelcomeLgText = styled.h1`
-  border: 2px solid blue;
+  // border: 2px solid blue;
 `;
 
 export const WelcomeTextWrapper = styled.div`
@@ -56,7 +57,7 @@ export const WelcomeTextWrapper = styled.div`
 `;
 
 export const WelcomeText = styled.h2`
-  border: 2px solid orange;
+  // border: 2px solid orange;
 `;
 
 export const CirlceImgContainer = styled.div`
@@ -107,7 +108,7 @@ export const CirlceImg = styled.img`
 `;
 
 export const ContactContainer = styled.div`
-  border: 2px solid red;
+  // border: 2px solid red;
   max-width: 100%;
   background: #f8ece4;
 
@@ -201,13 +202,27 @@ export const ContactTextWrapper = styled.div`
   text-align: center;
 `;
 
-export const ContactTextButtonWrapper = styled.div`
+export const ContactTextButtonWrapper = styled(Link)`
   text-align: center;
+  // border: 2px solid blue;
+  text-decoration: none;
+  color: black;
 `;
 
-export const ContactTextButtonContainer = styled.div``;
+export const ContactTextButtonContainer = styled.div`
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  // border: 2px solid red;
+  padding-bottom: 150px;
+  justify-content: center;
+`;
 
-export const ContactTextButtonText = styled.h2``;
+export const ContactTextButtonText = styled.h2`
+  text-decoration: none;
+`;
 
 export const ContactLgText = styled.h1``;
 

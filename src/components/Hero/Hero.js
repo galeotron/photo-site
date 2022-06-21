@@ -80,7 +80,7 @@ const Hero = ({isOpen}) => {
             <ContactText> Contact me today to go over your vision. We will schedule a 15 minute call blah blah blah</ContactText>
           </ContactTextWrapper>
           <ContactTextButtonContainer>
-            <ContactTextButtonWrapper>
+            <ContactTextButtonWrapper to="/contact">
               <ContactTextButtonText>Contact</ContactTextButtonText>
             </ContactTextButtonWrapper>
             <ContactArrowWrapper>
