@@ -1,5 +1,5 @@
 import React from "react";
-import { AddressTxt, AddressWrapper, ContactContainer, ContactLgTxt, ContactLgTxtWrapper, ContactMdTxt, ContactMdTxtWrapper, IconContainer, IconDescTxt, IconDescTxtWrapper, IconSectionContainer, IconWrapper } from "./ContactElements";
+import { AddressTxt, AddressWrapper, ContactContainer, ContactLgTxt, ContactLgTxtWrapper, ContactMdTxt, ContactMdTxtWrapper, IconContainer, IconDescTxt, IconDescTxtWrapper, IconSectionContainer, IconWrapper, NewIconWrapper } from "./ContactElements";
 import {HiOutlineMail} from "react-icons/hi";
 import {BsPhone} from "react-icons/bs";
 import { FaInstagram, FaFacebookF } from "react-icons/fa";
@@ -17,7 +17,10 @@ const Contact = () => {
     <IconSectionContainer>
       <IconContainer>
         <IconWrapper>
-          <HiOutlineMail />
+          <NewIconWrapper>
+            <HiOutlineMail />
+          </NewIconWrapper>
+
         </IconWrapper>  
         <IconDescTxtWrapper>
           <IconDescTxt>Email</IconDescTxt>
@@ -28,7 +31,10 @@ const Contact = () => {
       </IconContainer>
       <IconContainer>  
         <IconWrapper>
-          <BsPhone />
+          <NewIconWrapper>
+            <BsPhone />
+          </NewIconWrapper>
+
         </IconWrapper>  
         <IconDescTxtWrapper>
           <IconDescTxt>Phone</IconDescTxt>
@@ -39,7 +45,10 @@ const Contact = () => {
       </IconContainer>
       <IconContainer href="//www.instagram.com/">  
         <IconWrapper>
-          <FaInstagram />
+          <NewIconWrapper>
+            <FaInstagram />
+          </NewIconWrapper>
+
         </IconWrapper>  
         <IconDescTxtWrapper >
           <IconDescTxt>Instagram</IconDescTxt>
@@ -50,7 +59,10 @@ const Contact = () => {
       </IconContainer>
       <IconContainer href="//www.facebook.com/">  
         <IconWrapper>
-          <FaFacebookF />
+          <NewIconWrapper>
+            <FaFacebookF />
+          </NewIconWrapper>
+
         </IconWrapper>  
         <IconDescTxtWrapper>
           <IconDescTxt>Facebook</IconDescTxt>

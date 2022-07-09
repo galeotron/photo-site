@@ -9,6 +9,7 @@ export const ContactContainer = styled.div`
     align-items: center;
     overflow-x: hidden;
     height: calc(100vh - 130px);
+    background-color: #fde1d1;
 
     @media screen and (max-width: 600px) {
 
@@ -25,6 +26,9 @@ export const ContactLgTxtWrapper = styled.div`
 
 export const ContactLgTxt = styled.h1`
     text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 62px;
+    color: #8c4f49;
 `;
 
 export const ContactMdTxtWrapper = styled.div`
@@ -33,6 +37,8 @@ export const ContactMdTxtWrapper = styled.div`
 
 export const ContactMdTxt = styled.h3`
     text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: black;
 `;
 
 export const IconSectionContainer = styled.div`
@@ -63,7 +69,7 @@ export const IconContainer = styled.a`
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color: #b7796c;
+    color: #black;
     font-family: 'Poppins', sans-serif;
 
     @media screen and (max-width: 600px) {
@@ -74,6 +80,11 @@ export const IconContainer = styled.a`
 
 `;
 
+export const NewIconWrapper = styled.div`
+    color: #fde1d1;
+    margin-top: 10px;
+`;
+
 export const IconWrapper = styled.div`
     /* border: 2px solid orange; */
     border-radius: 5000000px;
@@ -81,12 +92,19 @@ export const IconWrapper = styled.div`
     height: 10vw;
     max-width: 175px;
     max-height: 175px;
-    background-color: orange;
+    background-color: #36afa3;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
     
+    @media screen and (max-width: 600px) {
+
+        width: 35px;
+        height: 35px;
+
+    }
+
 `;
 
 export const IconDescTxtWrapper = styled.div`
@@ -95,6 +113,7 @@ export const IconDescTxtWrapper = styled.div`
 
 export const IconDescTxt = styled.h2`
     text-align: center;
+    color: black;
     
 `;
 
@@ -104,4 +123,5 @@ export const AddressWrapper = styled.div`
 
 export const AddressTxt = styled.h4`
     text-align: center;
+    color: black;
 `;

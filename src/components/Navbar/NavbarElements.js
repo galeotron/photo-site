@@ -14,7 +14,7 @@ export const NavbarContainer = styled.div`
   overflow-x: hidden;
   padding-left: 5em;
   padding-right: 5em;
-  background: #f8ece4;
+  background: #fde1d1;
   max-width:100%;
 
   @media screen and (max-width: 1300px) {
@@ -91,7 +91,8 @@ export const NavbarLink = styled(Link)`
   cursor: pointer;
   color: #b7796c;
   text-decoration: none;
-  font-family: 'Satisfy', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
 `;
 
 export const MobileIconWrapper = styled.div`

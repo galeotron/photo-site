@@ -11,16 +11,10 @@ import {
   FooterSocialContainer,
   FooterSocialWrapper,
   FooterText,
-  FooterTextWrapper,
-  EndLineWrapper,
-  EndLine,
-  SvgWrapper,
+  // FooterTextWrapper,
   FooterPic,
-  FooterCenterLineWrapper,
-  FooterCenterLine,
   FooterLogo,
   FooterLink,
-  EndContainer,
   FooterLinkContainer,
   NavSectionContainer,
   TextSocialContainer,
@@ -37,7 +31,6 @@ import kid from "../../images/kid.jpg";
 import pregnant from "../../images/pregnant.jpg";
 import logo from "../../images/logo.png";
 import { FaInstagram, FaFacebookF } from "react-icons/fa";
-import { SiMobxstatetree } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -74,12 +67,19 @@ const Footer = () => {
           <FooterPic src={pregnant}></FooterPic>
         </FooterPicWrapper>
       </FooterPicContainer>
-      <FooterCenterLineWrapper>
+      {/* <FooterCenterLineWrapper>
         <FooterCenterLine></FooterCenterLine>
-      </FooterCenterLineWrapper>
+      </FooterCenterLineWrapper> */}
       <FooterItemsContainer>
         <FooterItemsWrapper>
-          <FooterLogo src={logo}></FooterLogo>
+          <NavSectionContainer>
+            <FooterLogo src={logo}></FooterLogo>
+            <FooterText>
+              Carly Butler is a wedding and lifestyle photographer that caters to
+              Idaho and beyond. She captures the authentic lovers who seek genuine
+              moments big and small.
+            </FooterText>
+          </NavSectionContainer>  
         </FooterItemsWrapper>
         <FooterItemsWrapper>
           <NavSectionContainer>
@@ -107,13 +107,7 @@ const Footer = () => {
         </FooterItemsWrapper>
         <FooterItemsWrapper>
           <TextSocialContainer>
-            <FooterTextWrapper>
-              <FooterText>
-                Carly Butler is a wedding and lifestyle photographer that caters
-                to Idaho and beyond. She captures the authentic lovers who seek
-                genuine moments big and small.
-              </FooterText>
-            </FooterTextWrapper>
+            {/* <FooterTextWrapper></FooterTextWrapper> */}
             <FooterLgTextWrapper>
               <FooterLgText>Let's Connect</FooterLgText>
             </FooterLgTextWrapper>
@@ -128,7 +122,7 @@ const Footer = () => {
           </TextSocialContainer>
         </FooterItemsWrapper>
       </FooterItemsContainer>
-      <EndContainer>
+      {/* <EndContainer>
         <EndLineWrapper>
           <EndLine></EndLine>
         </EndLineWrapper>
@@ -138,7 +132,7 @@ const Footer = () => {
         <EndLineWrapper>
           <EndLine></EndLine>
         </EndLineWrapper>
-      </EndContainer>
+      </EndContainer> */}
     </FooterContainer>
   );
 };

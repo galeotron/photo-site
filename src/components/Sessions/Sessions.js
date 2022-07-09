@@ -25,7 +25,7 @@ const Sessions = () => {
   return (
     <SessionsContainer>
       <TitleTextWrapper>
-        <TitleText>Services I Offer</TitleText>
+        <TitleText>Sessions</TitleText>
       </TitleTextWrapper>
       <EngagementContainer>
         <PicContainer>
@@ -39,18 +39,18 @@ const Sessions = () => {
           </DescripLgWrapper>
           <DescripMdWrapper>
             <DescripMdTxt>
-              ON THE BIGGEST DAY OF YOUR LIFE, FEEL CONFIDENT FULLY LETTING GO
-              AND ENJOYING EVERYTHING YOUR WEDDING HAS TO OFFER. KNOW THAT EACH
-              SPECIAL DETAIL IS BEING CAPTURED WHILE YOU GET TO LIVE IN THE
-              MOMENT WITH YOUR LOVED ONES.
+              On the biggest day of your life, feel confident fully letting go
+              and enjoying everything your wedding has to offer. Know that each
+              special detail is being captured while you get to live in the
+              moment with your loved ones.
             </DescripMdTxt>
           </DescripMdWrapper>
           <DescripSmWrapper>
             <DescripSmTxt>
-              Includes: -custom built coverage based on your needs -explore add
-              ons like second shooters, first looks, rehearsal dinner coverage,
-              etc. -online gallery of full-resolution photos & print release -
-              weddings for 50-100+ guests *travel & accommodation fees may apply
+              <b>Includes: </b> <br/>-custom built coverage based on your needs <br/>
+              -explore add-ons like second shooters, first looks, rehearsal dinner coverage, etc. <br/>
+              -online gallery of full-resolution photos & print release <br/>
+              - weddings for 50-100+ guests *travel & accommodation fees may apply
               packages starting at $6,000
             </DescripSmTxt>
           </DescripSmWrapper>
@@ -63,18 +63,18 @@ const Sessions = () => {
           </DescripLgWrapper>
           <DescripMdWrapper>
             <DescripMdTxt>
-              ON THE BIGGEST DAY OF YOUR LIFE, FEEL CONFIDENT FULLY LETTING GO
-              AND ENJOYING EVERYTHING YOUR WEDDING HAS TO OFFER. KNOW THAT EACH
-              SPECIAL DETAIL IS BEING CAPTURED WHILE YOU GET TO LIVE IN THE
-              MOMENT WITH YOUR LOVED ONES.
+              On the biggest day of your life, feel confident fully letting go
+              and enjoying everything your wedding has to offer. Know that each
+              special detail is being captured while you get to live in the
+              moment with your loved ones.
             </DescripMdTxt>
           </DescripMdWrapper>
           <DescripSmWrapper>
             <DescripSmTxt>
-              Includes: -custom built coverage based on your needs -explore add
-              ons like second shooters, first looks, rehearsal dinner coverage,
-              etc. -online gallery of full-resolution photos & print release -
-              weddings for 50-100+ guests *travel & accommodation fees may apply
+            <b>Includes: </b> <br/>-custom built coverage based on your needs <br/>
+              -explore add-ons like second shooters, first looks, rehearsal dinner coverage, etc. <br/>
+              -online gallery of full-resolution photos & print release <br/>
+              - weddings for 50-100+ guests *travel & accommodation fees may apply
               packages starting at $6,000
             </DescripSmTxt>
           </DescripSmWrapper>
@@ -97,18 +97,18 @@ const Sessions = () => {
           </DescripLgWrapper>
           <DescripMdWrapper>
             <DescripMdTxt>
-              ON THE BIGGEST DAY OF YOUR LIFE, FEEL CONFIDENT FULLY LETTING GO
-              AND ENJOYING EVERYTHING YOUR WEDDING HAS TO OFFER. KNOW THAT EACH
-              SPECIAL DETAIL IS BEING CAPTURED WHILE YOU GET TO LIVE IN THE
-              MOMENT WITH YOUR LOVED ONES.
+              On the biggest day of your life, feel confident fully letting go
+              and enjoying everything your wedding has to offer. Know that each
+              special detail is being captured while you get to live in the
+              moment with your loved ones.
             </DescripMdTxt>
           </DescripMdWrapper>
           <DescripSmWrapper>
             <DescripSmTxt>
-              Includes: -custom built coverage based on your needs -explore add
-              ons like second shooters, first looks, rehearsal dinner coverage,
-              etc. -online gallery of full-resolution photos & print release -
-              weddings for 50-100+ guests *travel & accommodation fees may apply
+            <b>Includes: </b> <br/>-custom built coverage based on your needs <br/>
+              -explore add-ons like second shooters, first looks, rehearsal dinner coverage, etc. <br/>
+              -online gallery of full-resolution photos & print release <br/>
+              - weddings for 50-100+ guests *travel & accommodation fees may apply
               packages starting at $6,000
             </DescripSmTxt>
           </DescripSmWrapper>

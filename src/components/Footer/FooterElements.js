@@ -60,7 +60,7 @@ export const FooterItemsContainer = styled.div`
     margin-top: 10px;
     // border: 2px solid red;
     display: flex;
-    align-items: center;
+    // align-items: center;
     justify-content: center;
 
     @media screen and (max-width: 600px) {
@@ -73,8 +73,10 @@ export const FooterItemsWrapper = styled.div`
 
     width: 33.333%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    height: 100%;
+
 
     @media screen and (max-width: 600px) {
         width: 100%;
@@ -89,6 +91,7 @@ export const FooterLogo = styled.img`
 export const NavSectionContainer = styled.div`
     display: flex;
     flex-direction: column;
+
 `;
 
 export const FooterLgTextWrapper = styled.div`
@@ -98,6 +101,7 @@ export const FooterLgTextWrapper = styled.div`
 
 export const FooterLgText = styled.h1`
     text-align: center;
+    font-family: 'Satisfy', cursive;
 `;
 
 export const FooterLinkContainer = styled.div`
@@ -119,8 +123,9 @@ export const FooterLinkWrapper = styled.div`
 export const FooterLink = styled(Link)`
     width: 100%;
     text-align: center;
-    color: #b7796c;
+    color: #fde1d1;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 
     &:hover {
         color: black;
@@ -133,15 +138,15 @@ export const TextSocialContainer = styled.div`
 
     @media screen and (max-width: 600px) {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
 `;
 
 export const FooterTextWrapper = styled.div`
     width: 100%;
-    // border: 2px solid white;
+    border: 2px solid white;
     margin-bottom: 25px;
 
     @media screen and (max-width: 600px) {
@@ -153,6 +158,9 @@ export const FooterTextWrapper = styled.div`
 
 export const FooterText = styled.h4`
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 8px;
+    color: #fde1d1;
 `;
 
 export const FooterSocialContainer = styled.div`
@@ -164,7 +172,7 @@ export const FooterSocialContainer = styled.div`
 export const FooterSocialWrapper = styled.a`
     padding: 8px;
     font-size: 23px;
-    color: #b7796c;
+    color: #fde1d1;
     cursor: pointer;
 
     &:hover {
