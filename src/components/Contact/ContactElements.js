@@ -64,6 +64,7 @@ export const IconContainer = styled.a`
     align-items: center;
     text-decoration: none;
     color: #b7796c;
+    font-family: 'Poppins', sans-serif;
 
     @media screen and (max-width: 600px) {
 

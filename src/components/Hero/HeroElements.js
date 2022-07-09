@@ -26,7 +26,7 @@ export const WelcomeContainer = styled.div`
 
   overflow-y: hidden;
   overflow-x: hidden;
-  background: #f8ece4;
+  background: #fde1d1;
 `;
 
 export const WelcomeLgTextWrapper = styled.div`
@@ -39,6 +39,9 @@ export const WelcomeLgTextWrapper = styled.div`
 
 export const WelcomeLgText = styled.h1`
   // border: 2px solid blue;
+  font-family: "Satisfy", cursive;
+  color: #8c4f49;
+  font-size: 50px;
 `;
 
 export const WelcomeTextWrapper = styled.div`
@@ -58,6 +61,9 @@ export const WelcomeTextWrapper = styled.div`
 
 export const WelcomeText = styled.h2`
   // border: 2px solid orange;
+  // color: #8c4f49;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
 `;
 
 export const CirlceImgContainer = styled.div`
@@ -68,7 +74,7 @@ export const CirlceImgContainer = styled.div`
   padding-right: 7em;
   flex-wrap: wrap;
   justify-content: space-around;
-  background: #3d7068;
+  background: #f2aa6b;
 
   @media screen and (max-width: 1730px) {
     padding-left: 0px;
@@ -110,7 +116,7 @@ export const CirlceImg = styled.img`
 export const ContactContainer = styled.div`
   // border: 2px solid red;
   max-width: 100%;
-  background: #f8ece4;
+  background: #fde1d1;
 
   @media screen and (max-width: 800px) {
     display: flex;
@@ -122,7 +128,9 @@ export const ContactImgContainer = styled.div`
   /* border: 2px solid blue; */
   width: 70vw;
   height: 40vw;
-  margin-top: 5em;
+  // margin-top: 5em;
+  // padding-top: 5em;
+  // padding-bottom: 5em;
 
   @media screen and (max-width: 800px) {
     margin-top: 0px;
@@ -154,7 +162,7 @@ export const ContactImg = styled.img`
 `;
 
 export const BlankBg = styled.div`
-  background: #412234;
+  background: #fde1d1;
   width: 100vw;
   max-width: 100%;
   height: 35vw;
@@ -173,12 +181,13 @@ export const BlankBg = styled.div`
 `;
 
 export const ContactTxtBoxContainer = styled.div`
-  background: #b7796c;
+  background: #36afa3;
   position: relative;
   z-index: 6;
   top: -32vw;
   left: 65vw;
   margin-bottom: -32vw;
+  padding: 30px;
 
   height: 30vw;
   width: 29vw;
@@ -202,21 +211,26 @@ export const ContactTextWrapper = styled.div`
   text-align: center;
 `;
 
-export const ContactTextButtonWrapper = styled(Link)`
+export const ContactTextButtonWrapper = styled.div`
   text-align: center;
   // border: 2px solid blue;
   text-decoration: none;
   color: black;
+  font-family: 'Poppins', sans-serif;
 `;
 
-export const ContactTextButtonContainer = styled.div`
+export const ContactTextButtonContainer = styled(Link)`
   text-decoration: none;
   color: black;
-  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fde1d1;
+  margin-top: 100px;
+  // height: 100%;
   display: flex;
   align-items: flex-end;
   // border: 2px solid red;
-  padding-bottom: 150px;
+  // padding-bottom: 150px;
   justify-content: center;
 `;
 
@@ -224,8 +238,16 @@ export const ContactTextButtonText = styled.h2`
   text-decoration: none;
 `;
 
-export const ContactLgText = styled.h1``;
+export const ContactLgText = styled.h1`
+  font-family: "Satisfy", cursive;
+  color: #fde1d1;
+  font-size: 50px;
+`;
 
-export const ContactText = styled.h2``;
+export const ContactText = styled.h2`
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  margin-top: 15px;
+`;
 
 export const ContactArrowWrapper = styled.div``;

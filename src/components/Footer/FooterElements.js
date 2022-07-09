@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const FooterContainer = styled.div`
     // border: 2px solid red;
     padding: 50px;
-    background-color: #3D7068;
+    background-color: #8c4f49;
 
     @media screen and (max-width: 800px) {
         padding: 0px;
@@ -39,7 +39,7 @@ export const FooterPicWrapper = styled.div`
 `;
 
 export const FooterPic = styled.img`
-    border: 1px solid #3D7068;
+    border: 1px solid #8c4f49;
     width: 100%;
     height: 100%;
     object-fit: cover;

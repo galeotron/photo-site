@@ -91,6 +91,7 @@ export const NavbarLink = styled(Link)`
   cursor: pointer;
   color: #b7796c;
   text-decoration: none;
+  font-family: 'Satisfy', cursive;
 `;
 
 export const MobileIconWrapper = styled.div`
