@@ -59,7 +59,7 @@ const Sessions = () => {
       <FamilyContainer>
         <DescripFamContainer>
           <DescripLgWrapper>
-            <DescripLgTxt>Engagements</DescripLgTxt>
+            <DescripLgTxt>Family</DescripLgTxt>
           </DescripLgWrapper>
           <DescripMdWrapper>
             <DescripMdTxt>
